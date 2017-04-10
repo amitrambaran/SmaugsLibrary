@@ -1,0 +1,49 @@
+body {
+	background-color: #0D0B00;
+	margin: 0;
+	padding: 0;
+}
+
+.jumbotron {
+	height: 100vh;
+	margin: 0;
+	overflow: auto;
+}
+
+.centerbox {
+	position: relative;
+	width: 500px;
+	margin: 12% auto;
+	background: url(../imgs/landingBackground.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 40px 60px 50px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.welcome {
+	font-family: "Montserrat", sans-serif;
+	font-size: 3em;
+	color:white;
+}
+
+.button {
+	background-color: #AF8D33;
+	text-decoration: none;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.75em;
+	position: relative;
+	color:white;
+	padding:5px 15px;
+	border-radius: 5px;
+	border: 2px solid #AF8D33;
+	transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+	background: white;
+	border:2px white solid;
+	color:#AF8D33;
+	transition: all 0.3s ease 0s;
+}
+

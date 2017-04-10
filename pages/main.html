@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Smaug's Library</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/mainpage.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4, col-xs-4">
+					<p>Smaug's Library<span style="color:#1A77FF">.</span></p>
+				</div>
+
+				<div class="col-md-8, col-xs-8">
+					<div class="search, pull-right">
+			        	<form class="search-form">
+							<input type="text" placeholder="Search Library" id="searchText">
+							<!--<a class="search-btn" href="searchpage.html" id="srch" type="submit">Search</a>-->
+							<button class="search-btn" onclick="searchItems()" id="searchButton">Search</button>
+						</form>
+			        </div>
+				</div>
+			</div>	
+		</div>
+	</div>
+
+	<div class="main">
+		<div style="float: left; width: 40%;" class="verticalLine">
+			<form class="bruh">
+				Album/Song:<br>
+				<input class="add" id="title" type="text" autocomplete="off"><br>
+				Artist:<br>
+				<input class="add" id="artist" type="text" autocomplete="off"><br>
+				Year of Publication:<br>
+				<input class="add" id="year" type="text" autocomplete="off"><br>
+				<a class="buttons" id="add" type="submit">Add</a>
+				<a class="buttons" id="remove" type="submit">Remove</a>
+			</form>
+			<h1 id="currentItems">Smaug's Current Selection</h1>
+			<div class="table">
+				<ul class="itemList"></ul>
+			</table>
+			</div>
+		</div>
+		<div id="searchSection">
+			<div id="searchResultsTitle" class="searchTitle">
+				
+			</div>
+			<div id="searchResults" class="searchList">
+				
+			</div>
+		</div>
+	</div>
+		
+	<footer class="footer">
+	</footer>
+
+	<script type="text/javascript" src="../js/main.js"></script>
+</body>
+</html> 
