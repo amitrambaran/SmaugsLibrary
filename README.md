@@ -1,2 +1,2 @@
 # SmaugsLibrary
-A simple home library web app system. (collaborative course project)
+A home library web app system. (collaborative course project)
